@@ -62,10 +62,16 @@ I recommend SUDO mode.
 
 Method 2
 
-	cd /opt
-	git clone https://github.com/francedmr/Freedmr-Beta2.git
-	cd /opt/freedmr-installer
-	bash install.sh
+
+sudo su
+sudo apt update && sudo apt upgrade
+apt-get install git
+apt install python3-setproctitle
+apt install python3-pip
+cd /opt
+git clone https://github.com/francedmr/Freedmr-Beta2.git
+cd /opt/freedmr-Beta2
+bash install.sh
 	
 
 You can setup the dashboard to monitor the Server either locally or remotely.
