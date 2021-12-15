@@ -10,7 +10,7 @@
  To install using the docker method from your server console enter the following command.
 
 
-	sudo curl https://github.com/francedmr/FreeDMR-Beta2/-/raw/master/docker-configs/docker-compose_install.sh | bash
+	sudo curl https://github.com/francedmr/Freedmr-Beta2/-/raw/master/docker-configs/docker-compose_install.sh | bash
 
  
 
@@ -52,7 +52,7 @@ I recommend SUDO mode.
 
 Method 1
 
-	wget https://github.com/francedmr/FreeDMR-Beta2/-/raw/main/install.sh -O install.sh && bash install.sh
+	wget https://github.com/francedmr/Freedmr-Beta2/-/raw/main/install.sh -O install.sh && bash install.sh
 
 or
 
@@ -63,7 +63,7 @@ I recommend SUDO mode.
 Method 2
 
 	cd /opt
-	git clone https://github.com/francedmr/FreeDMR-Beta2.git
+	git clone https://github.com/francedmr/Freedmr-Beta2.git
 	cd /opt/freedmr-installer
 	bash install.sh
 	
