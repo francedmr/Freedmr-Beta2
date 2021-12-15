@@ -69,7 +69,7 @@ Method 2
         apt install python3-pip
 	cd /opt
 	git clone https://github.com/francedmr/Freedmr-Beta2.git
-	cd /opt/freedmr-Beta2
+	cd /opt/Freedmr-Beta2
 	bash install.sh
 	
 
