@@ -62,7 +62,7 @@ I recommend SUDO mode.
 
 Method 2
 
-        sudo su
+        su -
         sudo apt update && sudo apt upgrade
         apt-get install git
         apt install python3-setproctitle
